@@ -11,7 +11,7 @@ struct ContentView: View {
     
     var titles: [String] = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"]
     @State var selectedIndex1: Int = 0
-    @State var selectedIndex2: Int = 0
+    @State var selectedIndex2: Int = 1
     
     var body: some View {
         VStack(spacing: 24) {
